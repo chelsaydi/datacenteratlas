@@ -1,0 +1,58 @@
+
+{
+  "meta": {
+    "title": "Global Data Center Map",
+    "description": "Approximate active facility counts by major hub (aggregated from public colocation & hyperscale reporting).",
+    "lastUpdated": "2025-03",
+    "investment": {
+      "amountUsd": 415000000000,
+      "asOf": "2024",
+      "caption": "Global IT / data center capex invested to date (est.)",
+      "perSecondUsd": 13150,
+      "perSecondNote": "Optional: illustrative run-rate so the on-screen total ticks upward (hyperscale + colocation build-out)."
+    },
+    "water": {
+      "litersCumulative": 4200000000000,
+      "asOf": "2024",
+      "caption": "Global data center cooling & operations water consumed to date (est., illustrative). Scale up in JSON if needed.",
+      "perSecondLiters": 8500,
+      "unitLabel": "L"
+    }
+  },
+  "hubs": [
+    { "id": "ashburn", "name": "Northern Virginia (Ashburn)", "country": "USA", "lat": 39.04, "lng": -77.49, "count": 320, "type": "hyperscale + colocation" },
+    { "id": "silicon-valley", "name": "Silicon Valley / Bay Area", "country": "USA", "lat": 37.39, "lng": -121.96, "count": 180, "type": "hyperscale + colocation" },
+    { "id": "dallas", "name": "Dallas–Fort Worth", "country": "USA", "lat": 32.78, "lng": -96.80, "count": 95, "type": "colocation hub" },
+    { "id": "chicago", "name": "Chicago metro", "country": "USA", "lat": 41.88, "lng": -87.63, "count": 85, "type": "colocation hub" },
+    { "id": "nyc", "name": "New York / New Jersey", "country": "USA", "lat": 40.71, "lng": -74.01, "count": 110, "type": "financial + colocation" },
+    { "id": "montreal", "name": "Montreal", "country": "Canada", "lat": 45.50, "lng": -73.57, "count": 45, "type": "colocation + AI" },
+    { "id": "toronto", "name": "Toronto", "country": "Canada", "lat": 43.65, "lng": -79.38, "count": 55, "type": "colocation hub" },
+    { "id": "sao-paulo", "name": "São Paulo", "country": "Brazil", "lat": -23.55, "lng": -46.63, "count": 42, "type": "regional hub" },
+    { "id": "dublin", "name": "Dublin", "country": "Ireland", "lat": 53.35, "lng": -6.26, "count": 78, "type": "EU hyperscale" },
+    { "id": "london", "name": "London / Slough", "country": "UK", "lat": 51.51, "lng": -0.13, "count": 95, "type": "financial + colocation" },
+    { "id": "frankfurt", "name": "Frankfurt", "country": "Germany", "lat": 50.11, "lng": 8.68, "count": 72, "type": "EU hub" },
+    { "id": "amsterdam", "name": "Amsterdam", "country": "Netherlands", "lat": 52.37, "lng": 4.90, "count": 68, "type": "AMS-IX + hyperscale" },
+    { "id": "paris", "name": "Paris", "country": "France", "lat": 48.86, "lng": 2.35, "count": 48, "type": "colocation hub" },
+    { "id": "madrid", "name": "Madrid", "country": "Spain", "lat": 40.42, "lng": -3.70, "count": 35, "type": "regional hub" },
+    { "id": "zurich", "name": "Zurich", "country": "Switzerland", "lat": 47.38, "lng": 8.54, "count": 28, "type": "colocation" },
+    { "id": "stockholm", "name": "Stockholm", "country": "Sweden", "lat": 59.33, "lng": 18.07, "count": 32, "type": "Nordic hub" },
+    { "id": "warsaw", "name": "Warsaw", "country": "Poland", "lat": 52.23, "lng": 21.01, "count": 22, "type": "CEE hub" },
+    { "id": "mumbai", "name": "Mumbai", "country": "India", "lat": 19.08, "lng": 72.88, "count": 58, "type": "India hub" },
+    { "id": "hyderabad", "name": "Hyderabad", "country": "India", "lat": 17.39, "lng": 78.49, "count": 38, "type": "India hub" },
+    { "id": "singapore", "name": "Singapore", "country": "Singapore", "lat": 1.35, "lng": 103.82, "count": 65, "type": "APAC hub" },
+    { "id": "tokyo", "name": "Tokyo", "country": "Japan", "lat": 35.68, "lng": 139.76, "count": 88, "type": "APAC hyperscale" },
+    { "id": "osaka", "name": "Osaka", "country": "Japan", "lat": 34.69, "lng": 135.50, "count": 32, "type": "regional" },
+    { "id": "seoul", "name": "Seoul", "country": "South Korea", "lat": 37.57, "lng": 126.98, "count": 45, "type": "APAC hub" },
+    { "id": "sydney", "name": "Sydney", "country": "Australia", "lat": -33.87, "lng": 151.21, "count": 42, "type": "Oceania hub" },
+    { "id": "melbourne", "name": "Melbourne", "country": "Australia", "lat": -37.81, "lng": 144.96, "count": 28, "type": "regional" },
+    { "id": "johannesburg", "name": "Johannesburg", "country": "South Africa", "lat": -26.20, "lng": 28.04, "count": 18, "type": "Africa hub" },
+    { "id": "nairobi", "name": "Nairobi", "country": "Kenya", "lat": -1.29, "lng": 36.82, "count": 12, "type": "East Africa" },
+    { "id": "dubai", "name": "Dubai", "country": "UAE", "lat": 25.20, "lng": 55.27, "count": 35, "type": "MENA hub" },
+    { "id": "riyadh", "name": "Riyadh", "country": "Saudi Arabia", "lat": 24.71, "lng": 46.68, "count": 15, "type": "regional" },
+    { "id": "tel-aviv", "name": "Tel Aviv", "country": "Israel", "lat": 32.09, "lng": 34.78, "count": 22, "type": "tech hub" },
+    { "id": "beijing", "name": "Beijing", "country": "China", "lat": 39.90, "lng": 116.41, "count": 95, "type": "domestic hub" },
+    { "id": "shanghai", "name": "Shanghai", "country": "China", "lat": 31.23, "lng": 121.47, "count": 82, "type": "domestic hub" },
+    { "id": "hong-kong", "name": "Hong Kong", "country": "China", "lat": 22.32, "lng": 114.17, "count": 48, "type": "APAC hub" },
+    { "id": "taipei", "name": "Taipei", "country": "Taiwan", "lat": 25.03, "lng": 121.56, "count": 38, "type": "semiconductor adjacent" }
+  ]
+}
